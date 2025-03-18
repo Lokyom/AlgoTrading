@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+pytest
+flake8
+black
+jupyter
+pre-commit

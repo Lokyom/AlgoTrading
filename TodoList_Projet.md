@@ -8,11 +8,11 @@
   - [x] Établir les flux de données
   - [x] Identifier les points d'optimisation des coûts
 
-- [ ] **Mettre en place l'environnement de développement**
-  - [ ] Configurer le gestionnaire de version (Git)
-  - [ ] Mettre en place l'intégration continue
-  - [ ] Configurer l'environnement virtuel Python
-  - [ ] Établir les conventions de code et documentation
+- [x] **Mettre en place l'environnement de développement**
+  - [x] Configurer le gestionnaire de version (Git)
+  - [x] Mettre en place l'intégration continue
+  - [x] Configurer l'environnement virtuel Python
+  - [x] Établir les conventions de code et documentation
 
 - [ ] **Configuration de la base de données**
   - [ ] Écrire les tests pour la connexion à MongoDB/PostgreSQL
@@ -37,63 +37,63 @@
   - [ ] Gérer les erreurs et reconnexions
   - [ ] Optimiser les requêtes pour respecter les limites gratuites
 
-- [ ] **Système d'acquisition de données historiques**
-  - [ ] Écrire les tests pour le téléchargement de données depuis des sources gratuites
-  - [ ] Implémenter le système d'acquisition
-  - [ ] Assurer la normalisation des données
+- [x] **Système d'acquisition de données historiques**
+  - [x] Écrire les tests pour le téléchargement de données depuis des sources gratuites
+  - [x] Implémenter le système d'acquisition
+  - [x] Assurer la normalisation des données
   - [ ] Tester avec différentes sources de données
   - [ ] Mettre en place un système de cache pour minimiser les requêtes API
 
 - [ ] **Système de stockage des données**
-  - [ ] Créer les tests pour l'insertion/récupération
-  - [ ] Implémenter l'architecture de stockage
+  - [x] Créer les tests pour l'insertion/récupération
+  - [x] Implémenter l'architecture de stockage
   - [ ] Optimiser les requêtes fréquentes
   - [ ] Mettre en place un système de sauvegarde
   - [ ] Implémenter un système de rotation/archivage des données anciennes
 
 ## 3. Framework de Backtesting
 
-- [ ] **Développer le moteur de backtesting**
-  - [ ] Écrire les tests pour le système d'événements
-  - [ ] Implémenter le moteur de backtesting core
-  - [ ] Tester avec des stratégies simples connues
+- [x] **Développer le moteur de backtesting**
+  - [x] Écrire les tests pour le système d'événements
+  - [x] Implémenter le moteur de backtesting core
+  - [x] Tester avec des stratégies simples connues
   - [ ] Optimiser les performances
   - [ ] Intégrer avec le glossaire de stratégies
 
-- [ ] **Système de calcul de KPIs**
-  - [ ] Développer les tests pour chaque KPI (Sharpe, Drawdown, etc.)
-  - [ ] Implémenter les calculs de KPIs
-  - [ ] Valider contre des résultats connus
+- [x] **Système de calcul de KPIs**
+  - [x] Développer les tests pour chaque KPI (Sharpe, Drawdown, etc.)
+  - [x] Implémenter les calculs de KPIs
+  - [x] Valider contre des résultats connus
   - [ ] Ajouter des KPIs avancés
   - [ ] Automatiser la mise à jour des KPIs dans le glossaire
 
-- [ ] **Générateur de rapports**
-  - [ ] Créer les tests pour les différents formats de rapport
-  - [ ] Implémenter le générateur de rapports HTML
-  - [ ] Ajouter des visualisations de performance
-  - [ ] Tester avec différentes stratégies
+- [x] **Générateur de rapports**
+  - [x] Créer les tests pour les différents formats de rapport
+  - [x] Implémenter le générateur de rapports HTML
+  - [x] Ajouter des visualisations de performance
+  - [x] Tester avec différentes stratégies
   - [ ] Intégrer les liens vers le glossaire dans les rapports
 
 ## 4. Stratégies de Trading
 
-- [ ] **Créer le framework pour les stratégies**
-  - [ ] Écrire les tests pour les composants de stratégie
-  - [ ] Implémenter l'interface de stratégie
-  - [ ] Tester avec une stratégie de base
-  - [ ] Documenter l'API de stratégie
+- [x] **Créer le framework pour les stratégies**
+  - [x] Écrire les tests pour les composants de stratégie
+  - [x] Implémenter l'interface de stratégie
+  - [x] Tester avec une stratégie de base
+  - [x] Documenter l'API de stratégie
   - [ ] Intégrer avec le système de glossaire
 
-- [ ] **Développer des indicateurs techniques**
-  - [ ] Créer les tests pour chaque indicateur
-  - [ ] Implémenter les indicateurs techniques (MA, RSI, etc.)
-  - [ ] Valider contre des calculs connus
+- [x] **Développer des indicateurs techniques**
+  - [x] Créer les tests pour chaque indicateur
+  - [x] Implémenter les indicateurs techniques (MA, RSI, etc.)
+  - [x] Valider contre des calculs connus
   - [ ] Optimiser les calculs
   - [ ] Documenter chaque indicateur dans le glossaire
 
-- [ ] **Développer des stratégies de swing trading**
-  - [ ] Écrire les tests pour chaque stratégie
-  - [ ] Implémenter les stratégies
-  - [ ] Backtester sur différentes périodes
+- [x] **Développer des stratégies de swing trading**
+  - [x] Écrire les tests pour chaque stratégie
+  - [x] Implémenter les stratégies
+  - [x] Backtester sur différentes périodes
   - [ ] Documenter les performances et caractéristiques
   - [ ] Enregistrer dans le glossaire avec ID et nom normalisé
 
@@ -106,10 +106,10 @@
 
 ## 5. Risk Management
 
-- [ ] **Développer le système de gestion des risques**
-  - [ ] Créer les tests pour les règles de risk management
-  - [ ] Implémenter l'algorithme de sizing
-  - [ ] Tester avec différents scénarios de marché
+- [x] **Développer le système de gestion des risques**
+  - [x] Créer les tests pour les règles de risk management
+  - [x] Implémenter l'algorithme de sizing
+  - [x] Tester avec différents scénarios de marché
   - [ ] Documenter les paramètres et leur impact
   - [ ] Ajouter les métriques de risque au glossaire de stratégies
 

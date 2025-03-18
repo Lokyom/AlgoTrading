@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.py
+algotrading/__init__.py
+algotrading/data_loader.py
+algotrading/indicators.py
+algotrading/strategy.py
+algotrading.egg-info/PKG-INFO
+algotrading.egg-info/SOURCES.txt
+algotrading.egg-info/dependency_links.txt
+algotrading.egg-info/requires.txt
+algotrading.egg-info/top_level.txt
+tests/test_data_loader.py
+tests/test_indicators.py
+tests/test_setup.py
+tests/test_strategy.py

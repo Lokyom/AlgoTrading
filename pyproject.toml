@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "algotrading"
+version = "0.1.0"
+authors = [
+    {name = "Auteur", email = "auteur@example.com"},
+]
+description = "Un système de trading algorithmique"
+readme = "README.md"
+requires-python = ">=3.13"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scikit-learn",
+    "pytest",
+    "flake8",
+    "black",
+    "jupyter",
+    "pre-commit",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/your-username/AlgoTrading"
+"Bug Tracker" = "https://github.com/your-username/AlgoTrading/issues"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_functions = "test_*"
+
+[tool.black]
+line-length = 88
+target-version = ['py313']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+line_length = 88 
