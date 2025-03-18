@@ -1,0 +1,50 @@
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environnements virtuels
+venv/
+ENV/
+env/
+
+# Fichiers de configuration locale
+.env
+config.local.ini
+
+# Dossiers spécifiques à l'IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Fichiers de log
+*.log
+logs/
+
+# Fichiers de base de données
+*.db
+*.sqlite3
+
+# Clés API et secrets
+*_key.txt
+*_secret.txt
+api_keys.json
+secrets.json
